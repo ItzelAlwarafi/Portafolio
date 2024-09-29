@@ -1,5 +1,12 @@
+
+
 export default function footer (){
     return(
-        <h1>footer component</h1>
+        <div className="footer-container">
+            <h1 className="footer-text">© 2024 ITZEL ALWARAFI. All rights reserved. </h1>
+            
+
+        </div>
+        
     )
 }

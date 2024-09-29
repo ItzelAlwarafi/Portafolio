@@ -11,7 +11,10 @@ export default function sideBar (){
        < a href="https://www.linkedin.com/in/itzelalwarafi/" className="icon-sideBar">
        <FaLinkedin />
        </a>
-        <MdEmail className="icon-sideBar" />
+       < a href="" className="icon-sideBar">
+       <MdEmail />
+       </a>
+       
     </div>
    
     )

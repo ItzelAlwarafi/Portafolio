@@ -1,5 +1,9 @@
 export default function projectsList () {
     return(
-        <h1> i'm preoject list component</h1>
+        <div className="project-list-container">
+       <h1 className="Bold-text-titles-Back">PROJECTS </h1>
+            <h1 className="Bold-text-titles">PROJECTS </h1>
+            
+       </div> 
     )
 }

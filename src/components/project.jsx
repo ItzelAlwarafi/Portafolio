@@ -1,7 +1,12 @@
 export default function project (){
     return(
-        <h1>
+        <div>
+         <h1>
             i'm project component
         </h1>
+
+       
+        </div>
+       
     )
 }
