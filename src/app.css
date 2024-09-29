@@ -1,0 +1,155 @@
+
+
+.sideBar-Link-container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-self: center;
+    align-content: center;
+    height: 100%;
+}
+
+.icon-sideBar {
+    display: flex;
+    text-align: center;
+    margin: 1rem; 
+    font-size: x-large;
+    color:#DBAF2B
+}
+.welcome-page-container {
+    position: relative; 
+    margin-top: 5%;
+    background-image: url('src/assets/20181006_210628.jpg') ; 
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 60vh;
+    width: 100%;
+    justify-content: space-around;
+    color: #DBAF2B;
+    overflow: hidden; 
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    
+}
+
+.welcome-page-container::after {
+    content: '';
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(4, 2, 39, 0.438); 
+    z-index: 0; 
+  
+    
+}
+
+.welcome-page-container > * {
+    position: relative; /* Ensure child elements are above the overlay */
+    z-index: 1; /* Keep text elements above the overlay */
+}
+
+.intro-message h2, .intro-message h1 {
+    margin: 0; 
+    padding: 0; 
+}
+
+.intro-message h2 {
+    margin-bottom: 5px; 
+}
+
+.regular-font-group{
+   font-family: Archivo;
+   font-size: x-large;
+   font-weight: lighter;
+   letter-spacing: .2rem;
+   color: #dbaf2b; 
+}
+.bold-font-group{
+    font-family: Archivo;
+    font-size: 4rem;
+    font-weight:bold;
+    letter-spacing: .5rem;
+    color: #dbaf2b; 
+}
+
+.Bold-text-titles-Back{
+    font-family: Archivo;
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    color: #dbaf2b16; 
+    text-align: center;
+    position: relative; 
+    z-index: 0; 
+    margin: 0; 
+}
+.Bold-text-titles{
+    font-family: Archivo;
+    font-size: 2rem; 
+    font-weight: bold;
+    letter-spacing: .2rem;
+    color: #dbaf2b; 
+    text-align: center;
+    position: relative; 
+    z-index: 1; 
+    margin: -50px 0 0 0;
+}
+.aboutMe-Container , .Skills-component-container{
+    margin-top: 20%;
+}
+
+.aboutMe-picture-statement-container {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row; /* Change to row to align items side by side */
+  justify-content: center;
+}
+
+.profile-picture {
+    height: 15rem;
+    width: 10rem;
+    
+}
+
+.Personal-Statement {
+    width: 60%;
+    margin-left: 20px; 
+}
+.simpleText-format{
+    color: #dbaf2b; 
+    font-family: Archivo;
+   font-size: large;
+   font-weight: lighter;
+   letter-spacing: .1rem;
+   text-align: center;
+}
+.regular-font-group-messag{
+    font-family: Archivo;
+    font-size: 1.5rem;
+    font-weight:bold;
+    letter-spacing: .1rem;
+    text-align: center;
+    color: #dbaf2b; 
+
+}
+.skills-container {
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items horizontally */
+}
+
+.skill-tecnology-logo {
+    font-size: 5rem;
+    flex: 0 0 calc(20% - 10px); /* Adjusts the item width for 5 items per row, with a margin */
+    margin: 5px; 
+    margin-top: 10%;
+    opacity: .2;
+    
+}
