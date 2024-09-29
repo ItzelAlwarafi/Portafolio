@@ -175,17 +175,20 @@ font-size: xx-large;
 .Boldtext-titles{
     font-family: Raleway;
     font-size: 1.5rem; 
-    font-weight:bold;
+    font-weight:900;
     letter-spacing: .3rem;
-   
     text-align: center;
     position: relative; 
     z-index: 1; 
     margin: -50px 0 0 0;
     
+}
+/* find out how to make the all divs have an effect when hover on any of the logos*/
+.Boldtext-titles:hover{
+  text-decoration: underline;
 
 }
-
+  
 .single-chart {
   width: 33%;
   justify-content: space-around;
